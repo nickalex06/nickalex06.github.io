@@ -15,9 +15,9 @@
 
 **GitHub-login:** nickalex06
 
-**Ссылка на GitHub Pages:** [ВСТАВЬТЕ ССЫЛКУ]
+**Ссылка на GitHub Pages:** https://nickalex06.github.io/
 
-**Ссылка на основной pull request:** [ВСТАВЬТЕ ССЫЛКУ]
+**Ссылка на основной pull request:** https://github.com/nickalex06/nickalex06.github.io/pull/1
 
 ---
 

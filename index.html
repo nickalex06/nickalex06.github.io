@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Учебное резюме frontend-разработчика: Иванов Иван Иванович"
+      content="Персональная страница студента, изучающего разработку веб-интерфейсов"
     />
-    <title>Иванов Иван — frontend-разработчик</title>
+
+    <title>Алексеев Никита — разработка веб-интерфейсов</title>
+    <link rel="icon" href="data:," />
     <link rel="stylesheet" href="styles.css" />
   </head>
 
@@ -15,11 +17,10 @@
     <header class="site-header">
       <div class="container header-inner">
         <a class="logo" href="#top" aria-label="Перейти в начало страницы">
-          ИИ
+          АН
         </a>
 
         <nav class="navigation" aria-label="Основная навигация">
-          <a href="#experience">Опыт</a>
           <a href="#projects">Проекты</a>
           <a href="#skills">Навыки</a>
           <a href="#education">Образование</a>
@@ -31,31 +32,36 @@
     <main id="top" class="container page-content">
       <section class="hero block" aria-labelledby="hero-title">
         <div class="hero-main">
-          <p class="eyebrow">Frontend-разработчик</p>
-          <h1 id="hero-title">Иванов Иван Иванович</h1>
+          <p class="eyebrow">Студент разработки web интерфейсов</p>
+          <h1 id="hero-title">Алексеев Никита Дмитриевич</h1>
           <p class="hero-text">
-            Создаю понятные веб-интерфейсы, соединяя аккуратный код,
-            внимание к пользователю и ответственную командную работу.
-            Умею доводить учебные и пет-проекты от идеи до публикации.
+            Изучаю разработку web интерфейсов. Умею работать с GitHub и Git.
+            Внимательно следую требованиям задачи.
+            Хочу научиться самостоятельно создавать и
+            публиковать простые веб-интерфейсы.
           </p>
 
           <div class="tag-list" aria-label="Ключевые качества">
-            <span class="tag">JavaScript</span>
-            <span class="tag">Адаптивные интерфейсы</span>
-            <span class="tag">Командная работа</span>
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+            <span class="tag">VS Code</span>
             <span class="tag">Самостоятельность</span>
           </div>
 
           <div class="hero-actions">
-            <a class="button button-primary" href="#projects">Посмотреть проекты</a>
-            <a class="button button-secondary" href="mailto:ivan.ivanov@example.com">
-              Написать мне
+            <a
+              class="button button-primary"
+              href="https://github.com/nickalex06"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Открыть GitHub
             </a>
           </div>
         </div>
 
         <aside class="hero-summary" aria-label="Краткая информация">
-          <div class="avatar" aria-hidden="true">ИИ</div>
+          <div class="avatar" aria-hidden="true">АН</div>
 
           <dl class="facts-list">
             <div>
@@ -63,12 +69,12 @@
               <dd>Москва</dd>
             </div>
             <div>
-              <dt>Опыт</dt>
-              <dd>1 год учебной практики</dd>
+              <dt>Уровень</dt>
+              <dd>Начинающий</dd>
             </div>
             <div>
-              <dt>Главный результат</dt>
-              <dd>3 завершённых веб-проекта</dd>
+              <dt>Направление</dt>
+              <dd>Web интерфейсы</dd>
             </div>
             <div>
               <dt>Сейчас</dt>
@@ -79,62 +85,12 @@
       </section>
 
       <!-- Секции ниже можно менять местами целиком. -->
-      <section id="experience" class="block content-section" aria-labelledby="experience-title">
+      <section id="projects" class="block content-section" aria-labelledby="projects-title">
         <div class="section-heading">
           <p class="section-number">01</p>
           <div>
-            <p class="eyebrow">Практика</p>
-            <h2 id="experience-title">Опыт работы</h2>
-          </div>
-        </div>
-
-        <div class="item-list">
-          <!-- Скопируйте article целиком, чтобы добавить ещё одно место работы. -->
-          <article class="item-card experience-card">
-            <div class="item-meta">
-              <p class="item-period">Июнь 2025 — август 2025</p>
-              <p class="item-place">ООО «Пример» · Москва</p>
-            </div>
-            <div class="item-content">
-              <h3>Стажёр frontend-разработчик</h3>
-              <p>
-                Участвовал в разработке внутреннего сервиса и работал
-                вместе с дизайнером и backend-разработчиком.
-              </p>
-              <ul>
-                <li>Собрал адаптивные интерфейсные компоненты.</li>
-                <li>Исправил ошибки в формах и состояниях загрузки.</li>
-                <li>Подготовил документацию по запуску проекта.</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="item-card experience-card">
-            <div class="item-meta">
-              <p class="item-period">Сентябрь 2024 — май 2025</p>
-              <p class="item-place">Учебная лаборатория · НИУ ВШЭ</p>
-            </div>
-            <div class="item-content">
-              <h3>Разработчик учебного проекта</h3>
-              <p>
-                Проектировал интерфейс, распределял задачи в команде и
-                представлял результат на итоговой защите.
-              </p>
-              <ul>
-                <li>Описал пользовательские сценарии и требования.</li>
-                <li>Настроил совместную работу через GitHub.</li>
-              </ul>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section id="projects" class="block content-section" aria-labelledby="projects-title">
-        <div class="section-heading">
-          <p class="section-number">02</p>
-          <div>
             <p class="eyebrow">Что я сделал</p>
-            <h2 id="projects-title">Пет-проекты</h2>
+            <h2 id="projects-title">Учебный проект</h2>
           </div>
         </div>
 
@@ -142,51 +98,41 @@
           <!-- Скопируйте article целиком, чтобы добавить ещё один проект. -->
           <article class="item-card project-card">
             <div class="project-topline">
-              <p class="item-period">2025</p>
-              <a href="#" aria-label="Открыть проект Планировщик задач">Демо ↗</a>
+              <p class="item-period">2026</p>
+              <a
+                href="https://github.com/nickalex06/Visitor-Counter"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Открыть проект Visitor Counter на GitHub">GitHub ↗</a>
             </div>
-            <h3>Планировщик задач</h3>
+            <h3>Visitor-Counter</h3>
             <p>
-              Небольшое приложение для создания, фильтрации и сохранения
-              повседневных задач.
+              Аппаратно-программный прототип автономного счётчика посетителей.
+              Устройство фиксирует пересечение контролируемой зоны,
+              увеличивает счётчик и сохраняет результаты на microSD-карту.
+            </p>
+            <p>
+              <strong>Мой вклад:</strong> подобрал и собрал аппаратную часть
+              на STM32F401CCU6 с ToF-датчиком VL53L0X и microSD-модулем,
+              разработал программную часть устройства.
             </p>
             <p class="project-result">
-              <strong>Результат:</strong> реализовал работу с состоянием и
-              сохранение данных между сессиями.
+              <strong>Результат:</strong> работающий прототип определяет проходы
+              и сохраняет итоговый счётчик, события и журнал работы на microSD.
             </p>
             <div class="tag-list tag-list-small">
-              <span class="tag">HTML</span>
-              <span class="tag">CSS</span>
-              <span class="tag">JavaScript</span>
+              <span class="tag">STM32</span>
+              <span class="tag">C</span>
+              <span class="tag">I2C / SPI</span>
             </div>
           </article>
 
-          <article class="item-card project-card">
-            <div class="project-topline">
-              <p class="item-period">2024</p>
-              <a href="#" aria-label="Открыть проект Афиша мероприятий">GitHub ↗</a>
-            </div>
-            <h3>Афиша мероприятий</h3>
-            <p>
-              Адаптивный каталог городских событий с поиском и фильтрами по
-              категориям.
-            </p>
-            <p class="project-result">
-              <strong>Результат:</strong> спроектировал карточки, состояния
-              пустой выдачи и мобильную навигацию.
-            </p>
-            <div class="tag-list tag-list-small">
-              <span class="tag">Figma</span>
-              <span class="tag">БЭМ</span>
-              <span class="tag">GitHub</span>
-            </div>
-          </article>
         </div>
       </section>
 
       <section id="skills" class="block content-section" aria-labelledby="skills-title">
         <div class="section-heading">
-          <p class="section-number">03</p>
+          <p class="section-number">02</p>
           <div>
             <p class="eyebrow">Инструменты и подходы</p>
             <h2 id="skills-title">Навыки</h2>
@@ -198,13 +144,13 @@
             <p class="skill-level">Опытный уровень</p>
             <h3>Работаю самостоятельно</h3>
             <p>
-              Решаю типовые задачи без постоянной помощи, могу объяснить
-              решение и провести проверку результата.
+              Самостоятельно решаю типовые задачи, нахожу и исправляю ошибки
+              и могу объяснить используемые инструменты и принятые решения.
             </p>
             <ul class="plain-list">
-              <li>HTML и семантическая разметка</li>
-              <li>CSS, Flexbox и Grid</li>
-              <li>Git и GitHub</li>
+              <li>Java</li>
+              <li>Git</li>
+              <li>GitHub</li>
             </ul>
           </article>
 
@@ -212,13 +158,14 @@
             <p class="skill-level">Средний уровень</p>
             <h3>Применяю в проектах</h3>
             <p>
-              Выполняю задачи по документации и примерам, иногда обращаюсь за
-              review сложных решений.
+              Выполняю типовые задачи по документации и примерам,
+              а для сложных решений иногда требуется дополнительная
+              информация или review.
             </p>
             <ul class="plain-list">
-              <li>JavaScript и DOM API</li>
-              <li>TypeScript</li>
-              <li>Работа с REST API</li>
+              <li>C / C++</li>
+              <li>Spring</li>
+              <li>REST API</li>
             </ul>
           </article>
 
@@ -226,12 +173,12 @@
             <p class="skill-level">Базовый уровень</p>
             <h3>Изучаю основы</h3>
             <p>
-              Понимаю назначение технологии и могу собрать простой пример с
-              подсказками.
+              Понимаю назначение технологии и могу создать простой
+              рабочий пример с использованием документации или подсказки.
             </p>
             <ul class="plain-list">
-              <li>React</li>
-              <li>Автоматические тесты</li>
+              <li>Swift</li>
+              <li>Kotlin</li>
               <li>Docker</li>
             </ul>
           </article>
@@ -240,7 +187,7 @@
 
       <section id="education" class="block content-section" aria-labelledby="education-title">
         <div class="section-heading">
-          <p class="section-number">04</p>
+          <p class="section-number">03</p>
           <div>
             <p class="eyebrow">Подготовка</p>
             <h2 id="education-title">Образование</h2>
@@ -251,13 +198,12 @@
           <div>
             <p class="item-period">2024 — 2028</p>
             <h3>Национальный исследовательский университет «Высшая школа экономики»</h3>
-            <p>Бакалавриат · Направление «Пример образовательной программы»</p>
+            <p>Бакалавриат · "Дизайн и разработка информационных продуктов"</p>
           </div>
           <div>
-            <p class="item-label">Фокус обучения</p>
+            <p class="item-label">Направление подготовки</p>
             <p>
-              Программирование, проектирование интерфейсов, анализ данных и
-              командная разработка.
+              09.03.04 Программная инженерия · Факультет компьютерных наук
             </p>
           </div>
         </article>
@@ -266,19 +212,32 @@
       <section id="contacts" class="block contact-section" aria-labelledby="contacts-title">
         <div>
           <p class="eyebrow">Контакты</p>
-          <h2 id="contacts-title">Готов обсудить стажировку или учебный проект</h2>
-        </div>
+          <h2 id="contacts-title">Мои учебные проекты и контакты</h2>
         <div class="contact-links">
-          <a href="mailto:ivan.ivanov@example.com">ivan.ivanov@example.com</a>
-          <a href="#">github.com/ivan-ivanov</a>
-          <a href="#">t.me/ivan_ivanov</a>
+          <a
+            href="https://github.com/nickalex06"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            github.com/nickalex06
+          </a>
+          <a href="mailto:nidmalekseev@edu.hse.ru">
+            nidmalekseev@edu.hse.ru
+          </a>
+          <a
+            href="https://t.me/nickalex06"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            @nickalex06
+          </a>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
       <div class="container footer-inner">
-        <p>Иванов Иван Иванович</p>
+        <p>Алексеев Никита Дмитриевич</p>
         <p>Учебное резюме · 2026</p>
       </div>
     </footer>
